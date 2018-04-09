@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+
+    <div id="main">
+        <h1>When Is Your Date of Birth?</h1>
+        <input type="text" value="" placeholder="dd" id="day"  onkeyup="checkday(this)" />
+        <input type="text" value="" placeholder="mm" id="month" onkeyup="checkmon(this)" />
+        <input type="text" value="" placeholder="yyyy" id="year" onkeyup="checkyear(this)"  />
+
+
+        <button onclick="calculate()">Check</button>
+        <h2 id="result"></h2>
+
+    </div>
+
+      <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

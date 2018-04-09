@@ -1,0 +1,50 @@
+body {
+    background: lightblue;
+}
+
+#main {
+    width: 90%;
+    height: auto;
+    background-color: #566573;
+    background-size: cover;
+    text-align: center;
+    margin: 50px auto;
+    padding: 10px;
+    border:15px ridge white;
+}
+
+h1 {
+    font-family: 'courier';
+    color: white;
+    line-height: 70px;
+}
+
+input {
+    outline: none;
+    border-width: 0 0 1px 0;
+    background: #566573;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'courier';
+    font-size: 15px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white;
+    font-size: 15px;
+    font-family: 'courier';
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: #566573;
+    color: #566573;
+    font-size: 22px;
+    font-family: 'courier';
+    border: 8px solid lightblue;
+    color: white;
+    outline :none
+}
