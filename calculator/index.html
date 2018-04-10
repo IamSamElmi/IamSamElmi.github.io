@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+
+
+<!--   This is the div is the whole calculator    -->
+ <div id="calculator">
+   <!-- This is the screen of calculator you can see your result -->
+	<div class="top">
+		
+<!-- 		<input id="screen" class = "screen"  style = "border-color: rgba(0,0,0,0.3)" > -->
+       <input class = "screen" type="" value="" disabled id="box"  style = "border-color: rgba(0, 0, 0, 0.2);"/>
+       
+             <input type="button" value="C" onclick="toScreen('C')" class = "clear"/>
+     
+	</div>
+
+	
+<!--  This is div is all operators and integers    -->
+	<div class="keys">
+	 <input type="button" value="7" onclick="toScreen('7')" class = "calculator" />
+	   <input type="button" value="8" onclick="toScreen('8')" class = "calculator"/>
+	
+        <input type="button" value="9" onclick="toScreen('9')" class = "calculator" />
+      
+      
+		<input type="button" value="+" onclick="toScreen('+')" class = "operator" />
+      
+ <input type="button" value="4" onclick="toScreen('4')" class = "calculator"/>
+      
+<input type="button" value="5" onclick="toScreen('5')" class = "calculator"/>
+      
+      <input type="button" value="6" onclick="toScreen('6')" class = "calculator"/>
+      
+		
+			<input type="button" value="-" onclick="toScreen('-')" class = "operator" />
+<input type="button" value="1" onclick="toScreen('1')" class = "calculator"/>
+      
+		<input type="button" value="2" onclick="toScreen('2')" class = "calculator"/>
+      
+		<input type="button" value="3" onclick="toScreen('3')" class = "calculator"/>
+      
+			<input type="button" value="/" onclick="toScreen('/')" class = "operator" />
+     <input type="button" value="0" onclick="toScreen('0')" class = "calculator"/>
+      
+          
+		<input type="button" value="." onclick="toScreen('.')" class = "calculator" />
+          
+       <input type="button" value="=" id="equals" onclick="answer()" class = "calculator" >
+      
+      
+		<input type="button" value="X" onclick="toScreen('*')" class = "operator" />
+		
+		
+	</div>
+</div>
+
+
+      <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
