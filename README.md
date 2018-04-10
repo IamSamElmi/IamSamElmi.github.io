@@ -1,5 +1,5 @@
-# IamSamElmi.github.io
-JavaScript Projects 
+# JavaScript Projects 
+
 
 <ul>
   <h3>Date of Birth Calculator </h3>
