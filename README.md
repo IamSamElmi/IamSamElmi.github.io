@@ -1,6 +1,13 @@
 # IamSamElmi.github.io
-JavaScript DOB Calculator
+JavaScript Projects 
 
-This is DOB calculator which will calculate your age! and you give you're exact age with days years and month
-</br>
-<a href="https://iamsamelmi.github.io/" target="_blank">DOB Calculator</a>
+<ul>
+  <h2>Date of Birth Calculator </h2>
+  <li><a href="https://iamsamelmi.github.io/" target="_blank">Vist the Website</a></li>
+  
+   <h2>Calculator </h2>
+  <li><a href="https://iamsamelmi.github.io/calculator/" target="_blank">Vist the Website</a></li>
+
+</ul>
+
+
