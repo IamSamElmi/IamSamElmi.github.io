@@ -56,8 +56,6 @@ function checkmon(aa) {
         aa.value = val;
     }
 
-
-
 }
 
 
@@ -97,10 +95,6 @@ function checkyear(aa) {
     if (val > yyyy) {
         aa.value = '';
     }
-  
-    
-
-
 
 
 }
@@ -152,35 +146,18 @@ function calculate() {
         alert("invalid!");
 
 
-    } 
-  
-    else if (dd > userday && mm > usermonth && yyyy > useryear) {
+    } else if (dd > userday && mm > usermonth && yyyy > useryear) {
         result.innerHTML = "Enter your date of birth, month less than current month";
         result.style.color = "white";
-    } 
-  
-     else if (dd === userday && mm === usermonth && yyyy === useryear) {
+    } else if (dd === userday && mm === usermonth && yyyy === useryear) {
         result.innerHTML = "Happy Birthday, We wish you have a great day ";
         result.style.color = "white";
-    } 
-  
-
-  
-  
-  else {
+    } else {
         result.innerHTML = "You are " + year_age + " years " + month_age + " months and " + day_age + " days old";
         result.style.color = "white";
         result.style.fontFamily = 'courier';
 
     }
-
-
-
-
-
-
-
-
 
 
 }
