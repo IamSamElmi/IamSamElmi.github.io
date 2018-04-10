@@ -2,10 +2,10 @@
 JavaScript Projects 
 
 <ul>
-  <h2>Date of Birth Calculator </h2>
+  <h3>Date of Birth Calculator </h3>
   <li><a href="https://iamsamelmi.github.io/" target="_blank">Vist the Website</a></li>
   
-   <h2>Calculator </h2>
+   <h3>Calculator </h3>
   <li><a href="https://iamsamelmi.github.io/calculator/" target="_blank">Vist the Website</a></li>
 
 </ul>
